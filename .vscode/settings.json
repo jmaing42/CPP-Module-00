@@ -2,4 +2,5 @@
   "[cpp]": {
     "editor.formatOnSave": true,
   },
+  "sonarlint.pathToCompileCommands": "${workspaceFolder}/compile_commands.json",
 }
