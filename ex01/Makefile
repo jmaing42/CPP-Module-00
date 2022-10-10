@@ -1,5 +1,5 @@
-NAME = megaphone
-OBJS = megaphone.o
+NAME = phonebook
+OBJS = main.o PhoneBook.o Contact.o
 
 CXXFLAGS = $(CPPFLAGS) -Wall -Wextra -Werror
 

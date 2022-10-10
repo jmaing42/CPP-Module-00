@@ -9,11 +9,11 @@ indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[{Makefile,*.mk}]
+[{Makefile,*.{c,h,mk}}]
 indent_size = 4
 tab_width = 4
 indent_style = tab
 
-[*.{cpp,hpp,tpp,cxx,hxx,txx,cc,hh,ixx}]
+[*.txt]
 insert_final_newline = false
 trim_trailing_whitespace = false

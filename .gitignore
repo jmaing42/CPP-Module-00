@@ -1,3 +1,14 @@
+.cache
+compile_commands.json
+.vscode/*
+!.vscode/settings.json
+
 ex00/*
 !ex00/Makefile
 !ex00/megaphone.cpp
+
+ex01/*
+!ex01/Makefile
+!ex01/*.cpp
+!ex01/*.h
+!ex01/*.hpp
