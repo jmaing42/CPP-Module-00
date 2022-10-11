@@ -12,3 +12,9 @@ ex01/*
 !ex01/*.cpp
 !ex01/*.h
 !ex01/*.hpp
+
+ex02/*
+!ex02/Makefile
+!ex02/Account.cpp
+!ex02/Account.hpp
+!ex02/tests.cpp
