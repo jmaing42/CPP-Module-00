@@ -14,10 +14,10 @@ private:
   std::size_t itemCount;
 
 public:
+  PhoneBook();
   std::size_t length() const;
-  Contact &getContact(std::size_t index);
-  const Contact &getContact(std::size_t index) const;
-  Contact &newContact();
+  Contact getContact(std::size_t index) const;
+  void putContact(Contact contact);
 };
 
 #endif
