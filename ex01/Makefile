@@ -1,7 +1,7 @@
 NAME = phonebook
 OBJS = main.o PhoneBook.o Contact.o
 
-CXXFLAGS = $(CPPFLAGS) -Wall -Wextra -Werror
+CXXFLAGS = -Wall -Wextra -Werror
 
 
 all: $(NAME)
@@ -23,7 +23,7 @@ re:
 
 
 .cpp.o:
-	$(CXX) $(CXXFLAGS) -c $<
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $<
 
 $(NAME): $(OBJS)
 	$(CXX) $(LDFLAGS) -o $@ $^
