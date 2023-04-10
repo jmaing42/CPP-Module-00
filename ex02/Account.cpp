@@ -1,3 +1,4 @@
+#include <cstddef>
 #include <ctime>
 #include <iomanip>
 #include <ios>
@@ -82,7 +83,7 @@ void Account::displayStatus(void) const {
 }
 
 void Account::_displayTimestamp(void) {
-  std::time_t now = std::time(nullptr);
+  std::time_t now = std::time(NULL);
   struct tm t = *localtime(&now);
   std::cout << '[';
   std::cout << std::setw(4) << std::setfill('0') << std::right
